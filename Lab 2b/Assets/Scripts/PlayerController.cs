@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerRb = GetComponent<Rigidbody>();    
+        //playerRb = GetComponent<Rigidbody>();    
     }
 
     // Update is called once per frame
@@ -29,8 +29,11 @@ public class PlayerController : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        playerRb.AddForce(Vector3.forward * speed * verticalInput, ForceMode.Acceleration);
-        playerRb.AddForce(Vector3.right * speed * horizontalInput, ForceMode.Acceleration);
+        transform.Translate(Vector3.right * horizontalInput *  speed* Time.deltaTime);
+        transform.Translate(Vector3.forward * verticalInput * speed * Time.deltaTime);
+
+        //playerRb.AddForce(Vector3.forward * speed * verticalInput, ForceMode.Acceleration);
+        //playerRb.AddForce(Vector3.right * speed * horizontalInput, ForceMode.Acceleration);
     }
 
     // comment 2

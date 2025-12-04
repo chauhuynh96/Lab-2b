@@ -63,7 +63,22 @@
     <Compile Include="Assets\Scripts\MoveDown.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\BTM_Assets\BTM_Items_Gems\Scripts\SimpleGemsAnim.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Course Library\Fonts\Roboto\LICENSE.txt" />
+    <None Include="Assets\DungeonFloorsAndWallsSamples\README.txt" />
+    <None Include="Assets\Course Library\Fonts\Margarine\OFL.txt" />
+    <None Include="Assets\Course Library\_Source_Files\Materials\UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets\Course Library\Fonts\Baloo_Chettan\OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Course Library\Fonts\Indie_Flower\OFL.txt" />
+    <None Include="Assets\Course Library\Fonts\Exo_2\OFL.txt" />
+    <None Include="Assets\Course Library\Fonts\Oswald\OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
